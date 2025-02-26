@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-primary {
+    @apply max-w-7xl m-auto p-5;
+  }
+  span {
+    @apply text-primary;
+  }
+
+  .button-blue {
+    @apply bg-gradient-to-t from-secondary to-primary h-10 rounded-lg flex items-center justify-center px-5 text-third gap-2 hover:from-primary hover:to-secondary duration-300 ease-in-out shadow-lg font-normal;
+  }
+  .button-white {
+    @apply bg-third h-10 rounded-lg flex items-center justify-center px-5 text-secondary font-medium gap-2 border-2 border-primary shadow-lg;
+  }
+
+  .neo {
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  }
+
+  .neo-secondary {
+    background: #ffffff;
+    box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
+  }
+
+  .bg-details {
+    background: linear-gradient(135deg, #0000 18.75%, #3b82f6 0 31.25%, #0000 0),
+      repeating-linear-gradient(45deg, #3b82f6 -6.25% 6.25%, #2563eb 0 18.75%);
+    background-size: 200px 200px;
+  }
+}
+.swiper-wrapper {
+  transition-timing-function: linear !important ;
+}
+
+li {
+  list-style: none;
+}
