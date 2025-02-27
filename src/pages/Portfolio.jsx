@@ -7,7 +7,7 @@ import TitleDetails from "../element/TitleDetails";
 const Portfolio = () => {
   return (
     <div>
-      <div className="mt-10 container-primary min-h-screen py-16 m-auto flex items-center justify-center font-ns flex-col gap-10">
+      <div className="mt-10 container-primary min-h-screen py-16 m-auto flex items-center justify-center font-ns flex-col gap-5">
         <TitleDetails texth1={"Our Portfolio"} texth2={"Home / Portfolio"}/>
         <PortfolioAll />
       </div>

@@ -9,6 +9,7 @@ import Pricing from "./pages/Pricing";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
 import ServiceDetails from "./pages/ServiceDetails";
+import Contact from "./pages/Contact";
 
 const App = () => {
   const { pathname } = useLocation();
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogDetail" element={<BlogDetails />} />
         <Route path="/serviceDetail" element={<ServiceDetails />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

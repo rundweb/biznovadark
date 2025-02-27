@@ -24,7 +24,7 @@ const Blog = () => {
   return (
     <div className="mt-20 container-primary font-ns">
       <TitleDetails texth1={"Our Blog"} texth2={"Home / Blog"} />
-      <section className="grid grid-cols-1  md:gap-10 md:grid-cols-2 py-5 lg:grid-cols-3">
+      <section className="grid grid-cols-1 gap-5  md:gap-10 md:grid-cols-2 py-5 lg:grid-cols-3">
         {techBlogs.map((item, i) => (
           <Link to={"/blogDetail"} className="w-full blog-title" key={i}>
             <div className="flex flex-col gap-5 group cursor-pointer">

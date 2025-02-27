@@ -89,7 +89,7 @@ const ContactComponents = () => {
               </div>
               <Link to={"https://mail.google.com/"}>
                 <div className="button-blue text-lg p-0 w-10 h-10 cursor-pointer group">
-                  <div className="flex items-center w-5 overflow-hidden gap-2">
+                  <div className="flex items-center w-5 overflow-hidden gap-2 text-font-primary">
                     <div className="-ml-6 group-hover:ml-[2px] duration-200 ease-linear">
                       <HiArrowRight />
                     </div>
@@ -111,7 +111,7 @@ const ContactComponents = () => {
               </div>
               <Link to={"https://web.whatsapp.com/"}>
                 <div className="button-blue text-lg p-0 w-10 h-10 cursor-pointer group">
-                  <div className="flex items-center w-5 overflow-hidden gap-2">
+                  <div className="flex items-center w-5 overflow-hidden gap-2 text-font-primary">
                     <div className="-ml-6 group-hover:ml-[2px] duration-200 ease-linear">
                       <HiArrowRight />
                     </div>
@@ -133,7 +133,7 @@ const ContactComponents = () => {
               </div>
               <Link to={"https://www.google.com/maps"}>
                 <div className="button-blue text-lg p-0 w-10 h-10 cursor-pointer group">
-                  <div className="flex items-center w-5 overflow-hidden gap-2">
+                  <div className="flex items-center w-5 overflow-hidden gap-2 text-font-primary">
                     <div className="-ml-6 group-hover:ml-[2px] duration-200 ease-linear">
                       <HiArrowRight />
                     </div>
